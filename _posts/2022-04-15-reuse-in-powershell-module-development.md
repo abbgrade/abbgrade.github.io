@@ -3,6 +3,8 @@ layout: post
 title: Reuse in PowerShell Module Development
 ---
 
+# {{ page.title }}
+
 In the last years I developed quite a number of PowerShell modules and learned to reuse some code beside the actual cmdlets.
 First it's the module structure, like using one file per cmdlet, loading and publishing them in the module.
 Then scripts like InvokeBuild tasks, to build, test and document the module.
