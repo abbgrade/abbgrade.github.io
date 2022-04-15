@@ -33,6 +33,7 @@ github_username:  abbgrade
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -6,12 +6,14 @@
         {
             "label": "install",
             "type": "shell",
-            "command": "bundle install"
+            "command": "bundle install",
+            "problemMatcher": []
         },
         {
             "label": "update",
             "type": "shell",
-            "command": "bundle update github-pages"
+            "command": "bundle update github-pages",
+            "problemMatcher": []
         }
     ]
 }
