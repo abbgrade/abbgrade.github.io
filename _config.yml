@@ -30,7 +30,7 @@ url: "https://abbgrade.github.io" # the base hostname & protocol for your site, 
 github_username:  abbgrade
 
 # Build settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-titles-from-headings
