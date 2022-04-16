@@ -27,7 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # twitter_username: jekyllrb
 github_username:  abbgrade
 
-strip_title: true
+titles_from_headings:
+  strip_title: true
 
 # Build settings
 # theme: jekyll-theme-midnight
