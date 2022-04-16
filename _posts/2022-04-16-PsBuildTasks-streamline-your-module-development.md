@@ -6,9 +6,12 @@ draft: true
 excerpt_separator: <!--more-->
 ---
 
-Previously I explained [aspects of a PowerShell module](2022-04-15-reuse-in-powershell-module-development.md), now i'll focus on reuse and automate as much as possible and how to focus on features of you PowerShell module and streamline the "overhead" like release management and testing.
+Previously I explained [aspects of a PowerShell module](2022-04-15-reuse-in-powershell-module-development.md), now i'll introduce [PsBuildTasks](https://github.com/abbgrade/PsBuildTasks): A repository that provides reusable components for powershell module development and maintenance.
+I'll explain how to focus on features of you PowerShell module and streamline the "overhead" like release management and testing.
 
 <!--more-->
+
+As a reminder the reusable aspects from the previous blog post are displayed in the following figure. In grey, what's potentially automatable and in green, what's already implemented and available.
 
 ![PsBuildTasks Structure](/assets/psbuildtasks-solution.drawio.png)
 
