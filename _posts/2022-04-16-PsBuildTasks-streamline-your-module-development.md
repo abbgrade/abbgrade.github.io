@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PsBuildTasks - streamline your module development
+title: PsBuildTasks - Streamline PowerShell Module Development
 tag: PsBuildTasks InvokeBuild Pester VSCode GitHubActions
 draft: true
 excerpt_separator: <!--more-->
