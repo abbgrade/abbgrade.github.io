@@ -5,7 +5,7 @@ tag: PsBuildTasks InvokeBuild Pester VSCode GitHubActions
 excerpt_separator: <!--more-->
 ---
 
-Previously I explained [aspects of a PowerShell module]({% link _posts/2022-04-15-reuse-in-powershell-module-development.md %}), now i'll focus on reuse and automate as much as possible and how to focus on features of you PowerShell module and streamline the "overhead" like release management and testing.
+Previously I explained [aspects of a PowerShell module](2022-04-15-reuse-in-powershell-module-development.md), now i'll focus on reuse and automate as much as possible and how to focus on features of you PowerShell module and streamline the "overhead" like release management and testing.
 
 <!--more-->
 

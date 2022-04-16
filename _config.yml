@@ -33,8 +33,9 @@ author:
 # Build settings
 # theme: jekyll-theme-midnight
 plugins:
-    - jekyll-github-metadata
     - jekyll-feed
+    - jekyll-github-metadata
+    - jekyll-relative-links
     - jekyll-titles-from-headings
 # Exclude from processing.
 # The following items will not be processed, by default.
