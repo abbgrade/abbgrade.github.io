@@ -3,7 +3,7 @@ layout: post
 title: Reuse in PowerShell Module Development
 tag: PsBuildTasks Pester InvokeBuild VSCode platyPs GitHubActions SemVer KeepAChangeLog GitFlow
 excerpt_separator: <!--more-->
-preview: /assets/psbuildtasks.drawio.png
+preview: /assets/psbuildtasks-1.drawio.png
 ---
 
 In the last years I learned to reuse some code between PowerShell modules, not like Cmdlets imported from other modules but structure and tools.
