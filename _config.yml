@@ -31,7 +31,8 @@ author:
     url: https://abbgra.de
 
 # Build settings
-# theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
+
 plugins:
     - jekyll-feed
     - jekyll-github-metadata
@@ -57,5 +58,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-minimal
