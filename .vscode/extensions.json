@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "ginfuru.ginfuru-vscode-jekyll-syntax"
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "znck.grammarly"
     ]
 }
