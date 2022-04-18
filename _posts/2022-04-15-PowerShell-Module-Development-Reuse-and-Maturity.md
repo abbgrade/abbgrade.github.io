@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reuse in PowerShell Module Development
+title: PowerShell Module Development - Reuse and Maturity
 tag: PsBuildTasks Pester InvokeBuild VSCode platyPs GitHubActions SemVer KeepAChangeLog GitFlow
 excerpt_separator: <!--more-->
 preview: /assets/psbuildtasks-1.drawio.png
@@ -59,4 +59,4 @@ These are conventions, but you can develop your automation workflows for build v
 
 Your module became quite complex, but you can simplify it by automation.
 You should understand all parts, but they won't slow you down compared to the benefit.
-More to that in my next post about [PsBuildTask](2022-04-16-PsBuildTasks-streamline-your-module-development.md).
+More, in my next post about [streamlining the development](2022-04-16-Streamlining-PowerShell-Modules-with-PsBuildTasks.md).

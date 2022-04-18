@@ -1,13 +1,13 @@
 ---
 layout: post
-title: PsBuildTasks - Streamline PowerShell Module Development
-tag: PsBuildTasks InvokeBuild Pester VSCode GitHubActions
+title: Streamlining PowerShell Modules with PsBuildTasks
+tag: PsBuildTasks InvokeBuild Pester VSCode GitHubActions GitFlow
 draft: true
 preview: /assets/psbuildtasks-solution.drawio.png
 excerpt_separator: <!--more-->
 ---
 
-Previously I explained [aspects of a PowerShell module](2022-04-15-reuse-in-powershell-module-development.md).
+Previously I explained [aspects of a PowerShell module](2022-04-15-PowerShell-Module-Development-Reuse-and-Maturity.md).
 Now I'll introduce [PsBuildTasks](https://github.com/abbgrade/PsBuildTasks): A repository that provides reusable components for PowerShell module development and maintenance.
 I'll explain how to focus on features of your PowerShell module and streamline the "overhead" like release management and testing.
 
