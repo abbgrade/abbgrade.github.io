@@ -31,7 +31,7 @@ author:
     url: https://abbgra.de
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: mine
 
 plugins:
     - jekyll-feed
