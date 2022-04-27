@@ -3,7 +3,7 @@ layout: post
 title: PowerShell Module Development - Reuse and Maturity
 tag: PsBuildTasks Pester InvokeBuild VSCode platyPs GitHubActions SemVer KeepAChangeLog GitFlow
 excerpt_separator: <!--more-->
-preview: psbuildtasks-1.drawio.png
+preview: /assets/psbuildtasks-1.drawio.png
 ---
 
 In the last years, I learned to reuse some code between PowerShell modules, not like Cmdlets imported from other modules but structure and tools.
@@ -15,7 +15,7 @@ I'll explain how to improve your modules and your development process.
 
 A PowerShell module is only a manifest file like `myModule.psd1` and a code file implementing it `myModule.psm1`. None of them allow much reuse since both are custom for every module.
 
-![PsBuildTasks Overview - Tier 1](psbuildtasks-1.drawio.png)
+![PsBuildTasks Overview - Tier 1](/assets/psbuildtasks-1.drawio.png)
 
 ## Tier 2 - Structure, Instructions and Testing
 
@@ -25,14 +25,14 @@ Add a readme file with instructions and the general concept.
 Add [Pester](https://github.com/pester/pester) tests to minimize bugs. As a side effect, tests can be used as examples too.
 Most of that is still individual to that module. But you could automatically load the `psd1` files per Cmdlet and publish them based on the directory structure.
 
-![PsBuildTasks Overview - Stage 2](psbuildtasks-2.drawio.png)
+![PsBuildTasks Overview - Stage 2](/assets/psbuildtasks-2.drawio.png)
 
 ## Tier 3 - Build and Automation
 
 If you implement the module in C# (binary module), before using and testing it, you need to build `myModule.dll` file.
 Therefore you should use [InvokeBuild](https://github.com/nightroman/Invoke-Build) and VS Code tasks to simplify and automate it.
 
-![PsBuildTasks Overview - Stage 3](psbuildtasks-3.drawio.png)
+![PsBuildTasks Overview - Stage 3](/assets/psbuildtasks-3.drawio.png)
 
 ## Tier 4 - Open Source and Sharing
 
@@ -45,7 +45,7 @@ The license may be the same for all your modules but won't often change anyway.
 The publishing to PowerShell Gallery can be reused but needs configuration per module.
 Installation and contribution instructions should not deviate between your modules.
 
-![PsBuildTasks Overview - Stage 4](psbuildtasks-4.drawio.png)
+![PsBuildTasks Overview - Stage 4](/assets/psbuildtasks-4.drawio.png)
 
 ## Tier 5 - Release Management and Continuous Integration
 
@@ -53,7 +53,7 @@ When your project becomes more mature, more people or projects depend on it - th
 Therefore I recommend [Semantic Versioning](https://semver.org), [keep a changelog](https://keepachangelog.com) and [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/).
 These are conventions, but you can develop your automation workflows for build validation, release, and pre-release.
 
-![PsBuildTasks Overview - Final Stage](psbuildtasks.drawio.png)
+![PsBuildTasks Overview - Final Stage](/assets/psbuildtasks.drawio.png)
 
 ## Summary
 

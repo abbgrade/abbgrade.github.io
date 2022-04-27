@@ -3,7 +3,7 @@ layout: post
 title: Streamlining PowerShell Modules with PsBuildTasks
 tag: PsBuildTasks InvokeBuild Pester VSCode GitHubActions GitFlow
 draft: true
-preview: psbuildtasks-solution.drawio.png
+preview: /assets/psbuildtasks-solution.drawio.png
 excerpt_separator: <!--more-->
 ---
 
@@ -17,7 +17,7 @@ As a reminder, see the reusable aspects of a PowerShell module in the following 
 The grey boxes show potentially automatable aspects.
 The green boxes show available features of PsBuildTasks.
 
-![PsBuildTasks Structure](psbuildtasks-solution.drawio.png)
+![PsBuildTasks Structure](/assets/psbuildtasks-solution.drawio.png)
 
 ## Project Directory Structure
 
