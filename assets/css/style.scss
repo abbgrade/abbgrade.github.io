@@ -6,7 +6,8 @@
 body {
     font: 100%  Helvetica, sans-serif;
     color: rgb(70, 70, 70);
-    background-color: rgb(216, 216, 216);
+    // background-color: rgb(216, 216, 216);
+    background-color: rgb(255, 255, 255);
 
     a {
         color: rgb(80, 97, 156);
@@ -16,8 +17,8 @@ body {
         >ul {
             >li {
                 list-style-type: none;
-                background-color: rgb(255, 255, 255);
                 padding: 10px;
+                margin-top: 10px;
             }
         }
     }
