@@ -3,17 +3,13 @@
 
 @import "{{ site.theme }}";
 
-$font-stack: Helvetica,
-sans-serif;
-$primary-color: rgb(70, 70, 70);
-$link-color: rgb(80, 97, 156);
-
 body {
-    font: 100% $font-stack;
-    color: $primary-color;
+    font: 100%  Helvetica, sans-serif;
+    color: rgb(70, 70, 70);
+    background-color: rgb(216, 216, 216);
 
     a {
-        color: $link-color;
+        color: rgb(80, 97, 156);
     }
 
     section {
