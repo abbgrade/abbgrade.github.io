@@ -14,7 +14,7 @@ body {
       color: $link-color;
   }
   section {
-      li {
+      li > {
           list-style-type: none;
       }
   }
