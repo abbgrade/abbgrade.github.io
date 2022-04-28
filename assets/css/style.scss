@@ -13,4 +13,9 @@ body {
   a {
       color: $link-color;
   }
+  section {
+      li {
+          list-style-type: none;
+      }
+  }
 }
