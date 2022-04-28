@@ -4,9 +4,13 @@
 @import "{{ site.theme }}";
 
 $font-stack: Helvetica, sans-serif;
-$primary-color: #f90;
+$primary-color: rgb(70, 70, 70);
+$link-color: rgb(80, 97, 156);
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  a {
+      color: $link-color;
+  }
 }
