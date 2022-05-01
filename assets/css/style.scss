@@ -5,6 +5,8 @@
 body {
     $contrast: rgb(70, 70, 70);
 
+    margin: 1em;
+
     font: 100% Helvetica, sans-serif;
     color: $contrast;
     // background-color: rgb(216, 216, 216);
@@ -15,15 +17,18 @@ body {
         color: rgb(80, 97, 156);
     }
 
+    > .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }    
+
     header {
-        max-width: 420px;
-        display: inline-block;
+        width: 420px;
     }
 
     section {
         min-width: 800px;
-        display: inline-flex;
-
         background-color: #fff;
 
         ul.post-index {
@@ -31,10 +36,14 @@ body {
             margin: 0px;
             padding: 0px;
             >li {
-                list-style-type: none;
+                display: block;
                 padding: 1em;
                 border-top: 1em $contrast solid
             }
         }
+    }
+
+    footer {
+        width: 100%;
     }
 }
