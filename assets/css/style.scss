@@ -68,7 +68,7 @@ html {
             border-top: 1em $contrast solid;
             padding: 1em;
 
-            >& {
+            >h,p {
                 max-width: 1200px;
                 margin: 1em;
             }
