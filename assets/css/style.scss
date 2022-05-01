@@ -8,25 +8,32 @@ body {
     font: 100% Helvetica, sans-serif;
     color: $contrast;
     // background-color: rgb(216, 216, 216);
-    background-color: rgb(255, 255, 255);
+
+    background-color: #dddddd;
 
     a {
         color: rgb(80, 97, 156);
     }
 
     header {
-        max-width: 300px;
+        max-width: 420px;
+        display: inline-block;
     }
 
     section {
-        max-width: 600px;
+        min-width: 800px;
+        display: inline-flex;
+
+        background-color: #fff;
 
         ul.post-index {
+            max-width: 1200px;
+            margin: 0px;
+            padding: 0px;
             >li {
                 list-style-type: none;
-                padding: 10px;
-                margin-top: 10px;
-                border-top: 10px $contrast solid
+                padding: 1em;
+                border-top: 1em $contrast solid
             }
         }
     }
