@@ -2,9 +2,9 @@
 ---
 // @import "{{ site.theme }}";
 
-$contrast = rgb(70, 70, 70);
-
 body {
+    $contrast: rgb(70, 70, 70);
+    
     font: 100% Helvetica, sans-serif;
     color: $contrast;
     // background-color: rgb(216, 216, 216);
