@@ -10,10 +10,11 @@ html {
         font: 100% Helvetica, sans-serif;
         color: $contrast;
 
-        background-color: #f6f8fa; // #e1e4e8
+        background-color: #f6f8fa;
 
         section {
             background-color: #fff;
+            border: 1px #e1e4e8 solid;
         }
 
         a {
