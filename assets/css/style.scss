@@ -66,12 +66,11 @@ html {
 
         section {
             border-top: 1em $contrast solid;
+            padding: 1em;
 
             >& {
                 max-width: 1200px;
                 margin: 1em;
-                padding-left: 1em;
-                padding-right: 1em;
             }
         }
     }
