@@ -1,11 +1,10 @@
----
----
+--- --- // @import "{{ site.theme }}";
 
-// @import "{{ site.theme }}";
+$contrast = rgb(70, 70, 70);
 
 body {
-    font: 100%  Helvetica, sans-serif;
-    color: rgb(70, 70, 70);
+    font: 100% Helvetica, sans-serif;
+    color: $contrast;
     // background-color: rgb(216, 216, 216);
     background-color: rgb(255, 255, 255);
 
@@ -13,13 +12,12 @@ body {
         color: rgb(80, 97, 156);
     }
 
-    section {
-        >ul {
-            >li {
-                list-style-type: none;
-                padding: 10px;
-                margin-top: 10px;
-            }
+    ul.post-index {
+        >li {
+            list-style-type: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-top: 10px $contrast solid;
         }
     }
 }
