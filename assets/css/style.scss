@@ -12,11 +12,9 @@ html {
 
         background-color: #f6f8fa;
 
-        h {
-            a:visited {
-                color: $contrast;
-            }
+        h1, h2, h3 {
             a {
+                color: $contrast;
                 text-decoration: none;
             }
         }
@@ -74,7 +72,7 @@ html {
             display: flex;
             align-items: baseline;
 
-            >h,p {
+            >h1,h2,h3,p {
                 min-width: 420px;
                 padding-left: 1em;
             }
@@ -83,7 +81,7 @@ html {
         section {
             padding: 1em;
 
-            >h,p {
+            >h1,h2,h3,p {
                 max-width: 1200px;
             }
         }
