@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PowerShell Module Development - Reuse and Maturity
-tag: PsBuildTasks, Pester, InvokeBuild, VSCode, platyPs, GitHubActions, SemVer, KeepAChangeLog, GitFlow
+tag: PsBuildTasks Pester InvokeBuild VSCode platyPs GitHubActions SemVer KeepAChangeLog GitFlow
 excerpt_separator: <!--more-->
 preview: /assets/psbuildtasks-1.drawio.png
 ---
