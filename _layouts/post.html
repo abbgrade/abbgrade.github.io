@@ -5,7 +5,7 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 |
 {% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  <small><span class="tags"><em>{{ page.tags | join: "</em> - <em>" }}</em></span></small>
 {% endif %}
 
 <h1>{{ page.title }}</h1>
