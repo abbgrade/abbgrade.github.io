@@ -4,7 +4,7 @@
 
 body {
     $contrast: rgb(70, 70, 70);
-    
+
     font: 100% Helvetica, sans-serif;
     color: $contrast;
     // background-color: rgb(216, 216, 216);
@@ -14,12 +14,20 @@ body {
         color: rgb(80, 97, 156);
     }
 
-    ul.post-index {
-        >li {
-            list-style-type: none;
-            padding: 10px;
-            margin-top: 10px;
-            border-top: 10px $contrast solid
+    header {
+        max-width: 300px;
+    }
+
+    section {
+        max-width: 600px;
+
+        ul.post-index {
+            >li {
+                list-style-type: none;
+                padding: 10px;
+                margin-top: 10px;
+                border-top: 10px $contrast solid
+            }
         }
     }
 }
