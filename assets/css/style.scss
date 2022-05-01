@@ -13,6 +13,10 @@ body {
 
     background-color: #f6f8fa; // #e1e4e8
 
+    section {
+        background-color: #fff;
+    }
+
     a {
         color: rgb(80, 97, 156);
     }
@@ -21,35 +25,28 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }    
 
-    header {
-        width: 420px;
-    }
+        header {
+            width: 420px;
+        }
 
-    section {
-        min-width: 800px;
-        background-color: #fff;
+        section {
+            min-width: 800px;
 
-        ul.post-index {
-            max-width: 1200px;
-            margin: 0px;
-            padding: 0px;
-            >li {
-                display: block;
-                padding: 1em;
-                border-top: 1em $contrast solid
+            ul.post-index {
+                max-width: 1200px;
+                margin: 0px;
+                padding: 0px;
+                >li {
+                    display: block;
+                    padding: 1em;
+                    border-top: 1em $contrast solid
+                }
             }
         }
 
-        .post {
-            max-width: 1200px;
-            margin: 0px;
-            padding: 0px;
+        footer {
+            width: 100%;
         }
-    }
-
-    footer {
-        width: 100%;
-    }
+    }    
 }
