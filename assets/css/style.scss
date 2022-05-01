@@ -12,10 +12,20 @@ html {
 
         background-color: #f6f8fa;
 
+        h {
+            a:visited {
+                color: $contrast;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+
         section {
             background-color: #fff;
             border: 1px #e1e4e8 solid;
             border-radius: 0.5em;
+            border-top: 1em $contrast solid;
         }
 
         a {
@@ -71,7 +81,6 @@ html {
         }
 
         section {
-            border-top: 1em $contrast solid;
             padding: 1em;
 
             >h,p {
