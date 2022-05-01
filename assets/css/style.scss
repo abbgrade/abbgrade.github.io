@@ -3,14 +3,14 @@
 
 html {
     $contrast: rgb(70, 70, 70);
+    $plane: #f6f8fa;
 
     body {
         margin: 1em;
 
         font: 100% Rubik, sans-serif;
         color: $contrast;
-
-        background-color: #f6f8fa;
+        background-color: $plane;
 
         h1, h2, h3 {
             a {
@@ -28,7 +28,16 @@ html {
 
         a {
             color: rgb(80, 97, 156);
-        }  
+        }
+
+        .tags {
+            em {
+                background-color: $contrast;
+                color: $plane;
+                border-radius: 0.25em;
+                margin: 1em;
+            }
+        }
     }
 
     body.home {
