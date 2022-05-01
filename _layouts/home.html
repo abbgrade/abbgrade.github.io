@@ -6,10 +6,8 @@ layout: default
   {% for post in site.posts %}
   <li>
     <small>{{ post.date | date: "%-d %B %Y" }}</small>
-    |
     {% if post.tags %}
       <small><span class="tags">
-        tags: 
         {% for tag in post.tags %}
         <em>{{ tag }}</em>
         {% endfor %}
