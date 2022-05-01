@@ -47,6 +47,10 @@ html {
                     padding: 1em;
                     border-top: 1em $contrast solid;
                 }
+
+                >li:first-child {
+                    border-top: none;
+                }
             }
         }
 
