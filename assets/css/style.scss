@@ -11,7 +11,7 @@ body {
     color: $contrast;
     // background-color: rgb(216, 216, 216);
 
-    background-color: #dddddd;
+    background-color: #f6f8fa; // #e1e4e8
 
     a {
         color: rgb(80, 97, 156);
@@ -40,6 +40,12 @@ body {
                 padding: 1em;
                 border-top: 1em $contrast solid
             }
+        }
+
+        .post {
+            max-width: 1200px;
+            margin: 0px;
+            padding: 0px;
         }
     }
 
