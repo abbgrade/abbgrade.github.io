@@ -1,4 +1,6 @@
---- --- // @import "{{ site.theme }}";
+---
+---
+// @import "{{ site.theme }}";
 
 $contrast = rgb(70, 70, 70);
 
@@ -17,7 +19,7 @@ body {
             list-style-type: none;
             padding: 10px;
             margin-top: 10px;
-            border-top: 10px $contrast solid;
+            border-top: 10px $contrast solid
         }
     }
 }
