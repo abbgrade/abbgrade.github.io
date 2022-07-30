@@ -2,7 +2,6 @@
 layout: post
 title: Streamlining PowerShell Modules with PsBuildTasks
 tags: PsBuildTasks InvokeBuild Pester VSCode GitHubActions GitFlow
-draft: true
 preview: /assets/psbuildtasks-solution.drawio.png
 excerpt_separator: <!--more-->
 ---
