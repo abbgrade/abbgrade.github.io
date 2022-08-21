@@ -19,7 +19,7 @@ html {
             }
         }
 
-        section {
+        section.main {
             background-color: #fff;
             border: 1px #e1e4e8 solid;
             border-radius: 0.5em;
@@ -52,7 +52,7 @@ html {
             width: 420px;
         }
 
-        section {
+        section.main {
             min-width: 800px;
 
             ul.post-index {
@@ -72,6 +72,10 @@ html {
             }
         }
 
+        section.project-index {
+            width: 420px;
+        }
+
         footer {
             width: 100%;
         }
@@ -88,7 +92,7 @@ html {
             }
         }
 
-        section {
+        section.main {
             padding: 1em;
 
             >h1,h2,h3,p {
